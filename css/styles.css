@@ -1,0 +1,240 @@
+
+/* <!--Стили к index.html--> */
+
+/* Цвет основного текста #212121; */
+/* Цвет вторичного текста #757575; */
+/* Белый текст #FFFFFF; */
+/* Акцент #2196F3; */
+/* Цвет контактов rgba(255, 255, 255, 0.6); */
+/* Цвет фона #FFFFFF; */
+/* Цвет фона героя #2F303A; */
+/* Цвет фона features и about #E5E5E5; */
+/* Цвет фона team #F5F4FA; */
+/* Цвет фона футера #2F303A; */
+
+:root {
+--primary-text-color: #212121;
+--secondary-text-color: #757575;
+--accent-color: #2196F3;
+--primary-white-color: #FFFFFF;
+--secondary-white-color: rgba(255, 255, 255, 0.6);
+}
+
+body {
+font-family: Roboto, sans-serif;
+color: var(--primary-text-color);
+}
+
+
+.list {
+    list-style: none;
+}
+
+.link {
+    text-decoration: none;
+}
+
+.logo:hover,
+.logo:focus {
+    color: var(--accent-color);
+}
+
+/* <!--Header--> */
+.header {
+    background-color: #FFFFFF;
+}
+
+.logo {
+    font-family: Raleway, sans-serif;
+    color: var(--accent-color); 
+    text-decoration: none;
+    font-weight: bold;
+    font-size: 26px;
+    line-height: 1.19;
+    letter-spacing: 0.03em;
+}
+
+.logo-one {
+    color: #000000;
+}
+
+.logo-two {
+    color: var(--primary-white-color);
+}
+
+.navigation .link {
+    color: var(--primary-text-color);
+}
+
+.navigation .link:hover,
+.navigation .link:focus {
+    color: var(--accent-color);
+}
+
+.header-link-mail {
+    color: var(--accent-color);
+    text-decoration: none;
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 1.14;
+    letter-spacing: 0.02em;
+    cursor: pointer;
+}
+
+.header-link-tel {
+    color: var(--secondary-text-color);
+    text-decoration: none;
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 1.14;
+    letter-spacing: 0.02em;
+}
+
+.header-link .link:hover,
+.header-link .link:focus, {
+    color: var(--accent-color);
+}
+
+.header.list .current {
+    color: var(--accent-color);
+    cursor: pointer;
+}
+
+/* <!--Герой--> */
+.hero-title {
+    color: var(--primary-white-color);
+    background-color: #2F303A;
+    font-weight: 900;
+    font-size: 44px;
+    line-height: 1.36;
+    text-align: center;
+    letter-spacing: 0.06em;
+    text-transform: uppercase;
+}
+
+.hero-btn {
+    color: var(--primary-white-color);
+    background-color: #2196F3;
+    font-weight: bold;
+    font-size: 16px;
+    line-height: 1.87;
+    display: flex;
+    align-items: center;
+    text-align: center;
+    letter-spacing: 0.06em;
+}
+
+.hero-btn .link:hover,
+.hero-btn .link:focus {
+    color: #188CE8;
+}
+
+/* <!--Описание качеств--> */
+.features,
+.about {
+    background-color: #E5E5E5;
+}
+.features-title {
+    visibility: hidden;
+}
+
+.features-second-title {
+    color: var(--primary-text-color);
+    font-weight: bold;
+    font-size: 14px;
+    line-height: 1.14;
+    letter-spacing: 0.03em;
+    text-transform: uppercase;
+}
+
+.features-text {
+    color: var(--secondary-text-color);
+    font-size: 14px;
+    line-height: 1.71;
+    letter-spacing: 0.03em;
+}
+
+/* <!--About--> */
+.about-title {
+    color: var(--primary-text-color);
+    font-weight: bold;
+    font-size: 36px;
+    line-height: 1.16;
+    text-align: center;
+    letter-spacing: 0.03em;
+}
+
+.team {
+    background-color: #F5F4FA;
+}
+
+.team-first-title {
+    color: var(--primary-text-color);
+    font-weight: bold;
+    font-size: 36px;
+    line-height: 1.16;
+    text-align: center;
+    letter-spacing: 0.03em;
+}
+
+.team-second-title {
+    color: var(--primary-text-color);
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 1.18;
+    text-align: center;
+    letter-spacing: 0.03em;
+}
+
+.team-text {
+    color: var(--secondary-text-color);
+    font-size: 16px;
+    line-height: 1.18;
+    text-align: center;
+    letter-spacing: 0.03em;
+}
+
+/* <!--Footer--> */
+.footer {
+    background-color: #2F303A;
+}
+
+.footer-link-text {
+    color: var(--primary-white-color);
+    text-decoration: none;
+    font-family: Roboto;
+    font-style: normal;
+    font-size: 14px;
+    line-height: 1.71;
+    letter-spacing: 0.03em;
+}
+
+.footer-mail {
+    color: var(--secondary-white-color);
+    text-decoration: none;
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 14px;
+    line-height: 1.71;
+    letter-spacing: 0.03em;
+}
+
+.footer-tel {
+    color: var(--secondary-white-color);
+    text-decoration: none;
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 14px;
+    line-height: 1.71;
+    letter-spacing: 0.03em;
+}
+
+.footer-list .link:hover,
+.footer-list .link:focus {
+    color: var(--accent-color);
+}
+
+/* <!--Стили к portfolio.html--> */
+
