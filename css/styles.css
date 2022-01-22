@@ -40,11 +40,6 @@ body {
     text-decoration: none;
 }
 
-.logo:hover,
-.logo:focus {
-    color: var(--accent-color);
-}
-
 /* Header */
 .header {
     background-color: var(--primary-white-color);
@@ -73,7 +68,6 @@ body {
     color: var(--primary-white-color);
 }
 
-
 .navigation .link {
     color: var(--primary-text-color);
 }
@@ -83,19 +77,8 @@ body {
     color: var(--accent-color);
 }
 
-
 .header-link {
     font-family: Roboto;
-    font-style: normal;
-    font-weight: 500;
-    font-size: 14px;
-    line-height: 1.14;
-    letter-spacing: 0.02em;
-    color: var(--accent-color);
-}
-
-.header-link-mail {
-    font-family: Roboto;
     color: var(--secondary-text-color);
     text-decoration: none;
     font-weight: 500;
@@ -104,26 +87,10 @@ body {
     letter-spacing: 0.02em;
 }
 
-.header-link-mail:hover,
-.header-link-mail:focus {
+.header-link:hover,
+.header-link:focus {
     color: var(--accent-color);
 }
-
-.header-link-tel {
-    font-family: Roboto;
-    color: var(--secondary-text-color);
-    text-decoration: none;
-    font-weight: 500;
-    font-size: 14px;
-    line-height: 1.14;
-    letter-spacing: 0.02em;
-}
-
-.header-link-tel:hover,
-.header-link-tel:focus {
-    color: var(--accent-color);
-}
-
 
 .header-link.current {
     color: var(--accent-color);
@@ -131,7 +98,6 @@ body {
 
 
 /* Герой */
-
 .hero {
     background-color: var(--hero-footer-background);
     text-align: center;
@@ -227,68 +193,29 @@ body {
     background-color: var(--hero-footer-background);
 }
 
-.footer-link-text {
+.footer-link {
+    color: var(--secondary-white-color);
+    text-decoration: none;
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 14px;
+    line-height: 1.71;
+    letter-spacing: 0.03em;
+}
+
+.footer-item-text {
     color: var(--primary-white-color);
-    text-decoration: none;
-    font-family: Roboto;
-    font-style: normal;
-    font-size: 14px;
-    line-height: 1.71;
-    letter-spacing: 0.03em;
 }
 
-.footer-mail {
-    color: var(--secondary-white-color);
-    text-decoration: none;
-    font-family: Roboto;
-    font-style: normal;
-    font-weight: normal;
-    font-size: 14px;
-    line-height: 1.71;
-    letter-spacing: 0.03em;
-}
-
-.footer-tel {
-    color: var(--secondary-white-color);
-    text-decoration: none;
-    font-family: Roboto;
-    font-style: normal;
-    font-weight: normal;
-    font-size: 14px;
-    line-height: 1.71;
-    letter-spacing: 0.03em;
-}
-
-.footer-link-text:hover,
-.footer-link-text:focus {
-    color: var(--accent-color);
-}
-
-.footer-mail:hover,
-.footer-mail:focus {
-    color: var(--accent-color);
-}
-
-.footer-tel:hover,
-.footer-tel:focus {
+.footer-link :hover,
+.footer-link :focus {
     color: var(--accent-color);
 }
 
 /* Стили к portfolio.html */
 
-/* Header */
-.header-link-mail {
-    color: var(--secondary-text-color);
-    font-family: Roboto;
-    text-decoration: none;
-    font-weight: 500;
-    font-size: 14px;
-    line-height: 1.14;
-    letter-spacing: 0.02em;
-}
-
 /* Наши работы */
-
 .section {
     background-color: var(--primary-white-color);
 }
@@ -298,13 +225,14 @@ body {
 }
 
 .section-btn {
-    font-family: inherit;
+    font-family: Roboto;
     font-weight: 500;
     font-size: 16px;
     line-height: 1.62;
     text-align: center;
     letter-spacing: 0.03em;
-    color:  var(--primary-text-color);
+    color:  var(--primary-text-color)
+    background-color var(--team-background-color);
     cursor: pointer;
 }
 
@@ -314,28 +242,9 @@ body {
     background-color: var(--accent-color);
 }
 
-.section-item {
-    font-family: inherit;
-    font-weight: 500;
-    font-size: 16px;
-    line-height: 1.62;
-    text-align: center;
-    letter-spacing: 0.03em;
-    color: var(--primary-text-color);
-    cursor: pointer;
-}
-
-
-.section-item :hover,
-.section-item :focus {
-    color: var(--primary-white-color);
-    background-color: var(--accent-color);
-}
-
 .section-sub-title,
 .card-link {
     font-family: Roboto;
-    text-decoration: none;
     color: var(--primary-text-color);
     font-style: normal;
     font-weight: bold;
@@ -346,13 +255,16 @@ body {
 
 .section-text {
     font-family: Roboto;
-    text-decoration: none;
     color: var(--secondary-text-color);
     font-style: normal;
     font-weight: normal;
     font-size: 16px;
     line-height: 1.87;
     letter-spacing: 0.03em;
+}
+
+a {
+    text-decoration: none;
 }
 
 .card-link :hover,
